@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUs from "../AboutUs/AboutUS";
+import { AboutUs } from "../AboutUs/AboutUS";
 import { WhatsAppButton } from "../WhatsappButton/WhatsappButton";
 import { ScrollToTopButton } from "../ScrollToTop/ScrollToTop";
 
