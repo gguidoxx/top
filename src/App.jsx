@@ -1,15 +1,15 @@
 import React from "react";
-import { NavBar } from "./components/NavBar/NavBar";
-import { MainPage } from "./components/MainPage/MainPage";
-import { Footer } from "./components/Footer/Footer";
+import { NavBar } from "./components/NavBar/NavBar.jsx";
+import { MainPage } from "./components/MainPage/MainPage.jsx";
+import { Footer } from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
       <MainPage />
       <Footer />
-    </>
+    </div>
   );
 }
 
