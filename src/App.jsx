@@ -3,7 +3,7 @@ import { NavBar } from "./components/NavBar/NavBar.jsx";
 import { MainPage } from "./components/MainPage/MainPage.jsx";
 import { Footer } from "./components/Footer/Footer.jsx";
 
-function App() {
+export function App() {
   return (
     <div>
       <NavBar />
@@ -12,5 +12,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
