@@ -6,9 +6,7 @@ import { AboutUs } from "../AboutUs/AboutUS.jsx";
 export const MainPage = () => {
   return (
     <>
-      <AboutUs />
-      <AboutUs />
-      <AboutUs />
+    
       <WhatsAppButton />
       <ScrollToTopButton />
     </>
