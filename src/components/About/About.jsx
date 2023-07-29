@@ -1,6 +1,6 @@
 import React from "react";
 
-export const AboutUs = () => {
+export const About = () => {
   return (
     <div className="container py-12 mx-auto text-center">
       <h1 className="text-4xl font-semibold text-gray-800 mb-9">
