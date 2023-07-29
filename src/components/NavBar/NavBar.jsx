@@ -25,8 +25,8 @@ export const NavBar = () => {
   }, []);
   return (
     <nav
-      className={`fixed top-0 left-0 w-full p-4  ${
-        isAtTop ? "bg-gray-800 text-white" : "bg-transparent text-black"
+      className={`sticky top-0 left-0 w-full p-4  ${
+        isAtTop ? "bg-gray-800 text-white" : "bg-white text-black"
       } transition duration-500 ease-in-out`}
     >
       <div className="container mx-auto">
