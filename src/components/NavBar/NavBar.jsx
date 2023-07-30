@@ -23,11 +23,13 @@ export const NavBar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const navbarBgClass = isAtTop
+    ? "bg-gray-800 text-white"
+    : "bg-white text-black";
   return (
     <nav
-      className={`sticky top-0 left-0 w-full p-4  ${
-        isAtTop ? "bg-gray-800 text-white" : "bg-white text-black"
-      } transition duration-500 ease-in-out`}
+      className={`sticky top-0 left-0 w-full p-4 transition duration-500 ease-in-out ${navbarBgClass}`}
     >
       <div className="container mx-auto">
         <div className="flex items-center justify-between">

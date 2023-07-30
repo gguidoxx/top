@@ -8,9 +8,6 @@ export function App() {
     <div>
       <NavBar />
       <MainPage />
-      <Footer />
     </div>
   );
 }
-
-

@@ -4,6 +4,9 @@ import { ScrollToTopButton } from "../ScrollToTop/ScrollToTop";
 import { About } from "../About/About";
 import imagen1 from "./imagen1.jpeg";
 import { Carrousel } from "../Carrousel/Carrousel";
+import { Footer } from "../Footer/Footer";
+import { AboutProf } from "../About/AboutProf";
+import { Bienvenida } from "../Bienvenida/Bienvenida";
 
 export const MainPage = () => {
   return (
@@ -16,12 +19,17 @@ export const MainPage = () => {
           backgroundPosition: "center",
           height: "max-content",
         }}
+        clas
       >
-        <About />
+        <Bienvenida />
       </div>
-      <Carrousel />
-      <WhatsAppButton />
-      <ScrollToTopButton />
+      <div className="bg-gray-100">
+        <About />
+        <Carrousel />
+        <WhatsAppButton />
+        <ScrollToTopButton />
+        <Footer />
+      </div>
     </>
   );
 };
