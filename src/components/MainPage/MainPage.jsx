@@ -2,7 +2,7 @@ import React from "react";
 import { WhatsAppButton } from "../WhatsappButton/WhatsappButton";
 import { ScrollToTopButton } from "../ScrollToTop/ScrollToTop";
 import { About } from "../About/About";
-import imagen1 from "./imagen1.jpeg";
+import imagen1 from "./imagen2.jpeg";
 import { Carrousel } from "../Carrousel/Carrousel";
 import { Footer } from "../Footer/Footer";
 import { AboutProf } from "../About/AboutProf";
@@ -16,10 +16,9 @@ export const MainPage = () => {
           backgroundImage: `url(${imagen1})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
+          backgroundPosition: "50% 60% ",
           height: "max-content",
         }}
-        clas
       >
         <Bienvenida />
       </div>

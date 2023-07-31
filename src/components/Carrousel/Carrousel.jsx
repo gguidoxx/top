@@ -1,7 +1,7 @@
 import React from "react";
 
 import imagen1 from "./imagen4.jpg";
-import imagen2 from "./imagen2.jpg";
+import imagen2 from "./imagen3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,7 @@ import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
 export const Carrousel = () => {
   return (
     <>
-      <div className="flex flex-col w-full mt-32">
+      <div className="flex flex-col w-full ">
         <div className="">
           <h1 className="flex h-full justify-center  gap-2 py-8 bg-gray-200">
             <p className="text-5xl font-montserrat text-gray-800">NUESTRAS</p>{" "}
@@ -22,7 +22,7 @@ export const Carrousel = () => {
       </div>
       <div className="w-full flex">
         <div className="w-1/2 flex flex-col items-center bg-gray-200">
-          <img src={imagen1} alt="Imagen 1" className="scale-90" />
+          <img src={imagen1} alt="Imagen 1" className="scale-95" />
         </div>
         <div className="w-1/2">
           <h2 className="text-center  bg-gray-200 h-full text-7xl text-blue-600 ">
@@ -59,7 +59,7 @@ export const Carrousel = () => {
           </h2>
         </div>
         <div className="w-1/2 flex flex-col items-center bg-gray-200">
-          <img src={imagen2} alt="Imagen 2" className="scale-90 " />
+          <img src={imagen2} alt="Imagen 2" className="scale-95" />
         </div>
       </div>
     </>

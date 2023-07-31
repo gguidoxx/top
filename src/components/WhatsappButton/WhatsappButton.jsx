@@ -21,7 +21,7 @@ export const WhatsAppButton = () => {
       className="fixed z-10 flex items-center justify-center text-2xl text-white bg-green-500 rounded-full shadow-lg w-14 h-14 bottom-4 left-4"
       onClick={handleWhatsAppClick}
     >
-      <FontAwesomeIcon icon={faWhatsapp} className="h-8" />
+      <FontAwesomeIcon icon={faWhatsapp} className="h-7" />
     </button>
   );
 };
